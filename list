@@ -1,0 +1,8 @@
+stu = ["raju","veeru","ram","swathi","sarala"]
+marks = [[43,78,67],[56,89,98],[80,90,97],[79,69,87],[76,65,67]]
+per = []
+for i in marks:
+    d = sum(i)//3
+    per.append(d)
+for i in range(5):
+    print("{}.{} : {}%".format(i+1,stu[i],per[i]))
